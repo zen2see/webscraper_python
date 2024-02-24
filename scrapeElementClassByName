@@ -1,0 +1,18 @@
+FIND BY DESCRIPTIVE CLASS NAME:
+<h2 class="title is-5">Senior Python Developer</h2>
+<h3 class="subtitle is-6 company">Payne, Roberts and Davis</h3>
+<p class="location">
+        Stewartbury, AA
+      </p>
+
+EXTRACT TEXT FROM HTML ELEMENTS:
+Senior Python Developer
+Payne, Roberts and Davis
+
+        Stewartbury, AA
+      
+
+FIND BY HTML CLASS NAME AND TEXT CONTENT DESPITE CAPITALIZATION:
+[<h2 class="title is-5">Senior Python Developer</h2>, <h2 class="title is-5">Software Engineer (Python)</h2>, <h2 class="title is-5">Python Programmer (Entry-Level)</h2>, <h2 class="title is-5">Python Programmer (Entry-Level)</h2>, <h2 class="title is-5">Software Developer (Python)</h2>, <h2 class="title is-5">Python Developer</h2>, <h2 class="title is-5">Back-End Web Developer (Python, Django)</h2>, <h2 class="title is-5">Back-End Web Developer (Python, Django)</h2>, <h2 class="title is-5">Python Programmer (Entry-Level)</h2>, <h2 class="title is-5">Software Developer (Python)</h2>]
+
+Python Jobs found: 10
