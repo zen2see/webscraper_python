@@ -100,7 +100,7 @@ elementClass = elementId.find_all('div', class_='card-content')
 for element in elementClass:
     scrapeElementClass.write(str(element) + '\n')
     # print(element, end='\n'*2)
-    
+
 # FIND BY DESCRIPTIVE CLASS NAME
 scrapeElementClassByName = open('scrapeElementClassByName', 'w+')    
 scrapeElementClassByName.write('FIND BY DESCRIPTIVE CLASS NAME:\n')
@@ -132,4 +132,16 @@ print(location_element.text)
 scrapeElementClassByName.write('\nFIND BY HTML CLASS NAME AND TEXT CONTENT DESPITE CAPITALIZATION:\n')
 pythonJobs = elementId.find_all('h2', string=lambda text: 'python' in text.lower())   
 scrapeElementClassByName.write(str(pythonJobs)+'\n'*2) 
-scrapeElementClassByName.write('Python Jobs found: ' + str(len(pythonJobs)) + '\n')    
+scrapeElementClassByName.write('Python Jobs found: ' + str(len(pythonJobs)) + '\n'*2)  
+scrapeElementClassByName.write('LOOPING TITLE, COMPANY INFO, LOCATION, URL FROM JOBS FOUND:\n') 
+pythonJobsElements = [ h2_element.parent.parent.parent for h2_element in pythonJobs]
+for el in pythonJobsElements:
+    title_element = el.find('h2', class_='title')
+    company_element = el.find('h3', class_='company')
+    location_element = el.find('p', class_='location') 
+    link_element = el.find_all('a')[1]['href'] # Second link 
+    scrapeElementClassByName.write(title_element.text.strip() + '\n')
+    scrapeElementClassByName.write(company_element.text.strip() + '\n')
+    scrapeElementClassByName.write(location_element.text.strip() + '\n')
+    scrapeElementClassByName.write(f'Apply here: {link_element}\n\n')
+

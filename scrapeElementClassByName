@@ -16,3 +16,55 @@ FIND BY HTML CLASS NAME AND TEXT CONTENT DESPITE CAPITALIZATION:
 [<h2 class="title is-5">Senior Python Developer</h2>, <h2 class="title is-5">Software Engineer (Python)</h2>, <h2 class="title is-5">Python Programmer (Entry-Level)</h2>, <h2 class="title is-5">Python Programmer (Entry-Level)</h2>, <h2 class="title is-5">Software Developer (Python)</h2>, <h2 class="title is-5">Python Developer</h2>, <h2 class="title is-5">Back-End Web Developer (Python, Django)</h2>, <h2 class="title is-5">Back-End Web Developer (Python, Django)</h2>, <h2 class="title is-5">Python Programmer (Entry-Level)</h2>, <h2 class="title is-5">Software Developer (Python)</h2>]
 
 Python Jobs found: 10
+
+LOOPING TITLE, LOCATION AND COMPANY INFO, URL FROM JOBS FOUND:
+Senior Python Developer
+Payne, Roberts and Davis
+Stewartbury, AA
+Apply here: https://realpython.github.io/fake-jobs/jobs/senior-python-developer-0.html
+
+Software Engineer (Python)
+Garcia PLC
+Ericberg, AE
+Apply here: https://realpython.github.io/fake-jobs/jobs/software-engineer-python-10.html
+
+Python Programmer (Entry-Level)
+Moss, Duncan and Allen
+Port Sara, AE
+Apply here: https://realpython.github.io/fake-jobs/jobs/python-programmer-entry-level-20.html
+
+Python Programmer (Entry-Level)
+Cooper and Sons
+West Victor, AE
+Apply here: https://realpython.github.io/fake-jobs/jobs/python-programmer-entry-level-30.html
+
+Software Developer (Python)
+Adams-Brewer
+Brockburgh, AE
+Apply here: https://realpython.github.io/fake-jobs/jobs/software-developer-python-40.html
+
+Python Developer
+Rivera and Sons
+East Michaelfort, AA
+Apply here: https://realpython.github.io/fake-jobs/jobs/python-developer-50.html
+
+Back-End Web Developer (Python, Django)
+Stewart-Alexander
+South Kimberly, AA
+Apply here: https://realpython.github.io/fake-jobs/jobs/back-end-web-developer-python-django-60.html
+
+Back-End Web Developer (Python, Django)
+Jackson, Ali and Mckee
+New Elizabethside, AA
+Apply here: https://realpython.github.io/fake-jobs/jobs/back-end-web-developer-python-django-70.html
+
+Python Programmer (Entry-Level)
+Mathews Inc
+Robertborough, AP
+Apply here: https://realpython.github.io/fake-jobs/jobs/python-programmer-entry-level-80.html
+
+Software Developer (Python)
+Moreno-Rodriguez
+Martinezburgh, AE
+Apply here: https://realpython.github.io/fake-jobs/jobs/software-developer-python-90.html
+
