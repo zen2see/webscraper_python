@@ -1,4 +1,4 @@
-# WEBSCRAOER https://realpython.com/beautiful-soup-web-scraper-python/
+# WEBSCRAPER https://realpython.com/beautiful-soup-web-scraper-python/
 
 # INSTALL VIRTUAL ENVIRONMENT
 #python3 -m venv venv
